@@ -1,0 +1,52 @@
+[
+  {
+    "instruction": "Classify the sentiment of the following text.",
+    "input": "I love the new features of this product!",
+    "output": "positive"
+  },
+  {
+    "instruction": "Classify the sentiment of the following text.",
+    "input": "The weather is okay, nothing special.",
+    "output": "neutral"
+  },
+  {
+    "instruction": "Classify the sentiment of the following text.",
+    "input": "I'm really disappointed with the service.",
+    "output": "negative"
+  },
+  {
+    "instruction": "Classify the sentiment of the following text.",
+    "input": "The movie was fantastic and thrilling!",
+    "output": "positive"
+  },
+  {
+    "instruction": "Classify the sentiment of the following text.",
+    "input": "I don't mind waiting, it's not a big deal.",
+    "output": "neutral"
+  },
+  {
+    "instruction": "Classify the sentiment of the following text.",
+    "input": "The food was terrible and tasteless.",
+    "output": "negative"
+  },
+  {
+    "instruction": "Classify the sentiment of the following text.",
+    "input": "Had a great time at the park today!",
+    "output": "positive"
+  },
+  {
+    "instruction": "Classify the sentiment of the following text.",
+    "input": "The book was quite boring and slow.",
+    "output": "negative"
+  },
+  {
+    "instruction": "Classify the sentiment of the following text.",
+    "input": "It's just another day, nothing much happened.",
+    "output": "neutral"
+  },
+  {
+    "instruction": "Classify the sentiment of the following text.",
+    "input": "The customer support was very helpful.",
+    "output": "positive"
+  }
+]

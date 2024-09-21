@@ -1,0 +1,4 @@
+# Dependencies for our cool project
+
+pandas==0.25
+requests==2.22.0

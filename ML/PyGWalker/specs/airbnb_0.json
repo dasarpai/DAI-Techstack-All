@@ -1,0 +1,6376 @@
+[
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "arc"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_B4-E",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_pXcS",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_O8J0",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Wxi2",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_nRBd",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Fro2",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_wr8n",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Oz_b",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_QJaT",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_gLY1",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_gkQy",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_uBeY",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "basename": "neihood_row_count",
+          "dragId": "GW_GrlZO9eq",
+          "offset": 0
+        },
+        {
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "basename": "has_house_rules",
+          "dragId": "GW_uYDXWUJF",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_i3o5",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_BXW3",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Hte6",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_d42S",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_fN8b",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_rwrL",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_CVG9",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_HDUa",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4P_K",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_sO_9",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zj1K",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_WM1P",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_lB35",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [],
+      "columns": [],
+      "color": [
+        {
+          "dragId": "gw_yj_0",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [
+        {
+          "dragId": "gw_bCNM",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_k7NK",
+    "name": "Chart 1"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_PaxQ",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_CHOm",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Pnya",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Ja2F",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_33EB",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_w95l",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_9mJ3",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_cH9D",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_uQMD",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_9nQ8",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_L8eo",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_8Ahu",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "basename": "neihood_row_count",
+          "dragId": "GW_YH6sUnAM",
+          "offset": 0
+        },
+        {
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "basename": "has_house_rules",
+          "dragId": "GW_b6x5povr",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_-RVM",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_YMYl",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_V7t8",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_OrZI",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ev_q",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_8G8l",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_VguS",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_hdw7",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_voN3",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Z1Kk",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Dkat",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Udko",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_HwRN",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_lbha",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "sort": "descending",
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_qH9a",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "fixed",
+        "width": 506,
+        "height": 329
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_esoN",
+    "name": "Chart 2"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_hfdT",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_jFez",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Ws-y",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_qf-o",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw__fvY",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_EgvO",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_a_qd",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_QN4G",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_cIff",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_V8Jr",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_rDd_",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_rGi0",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "basename": "neihood_row_count",
+          "dragId": "GW_9FXpqnkh",
+          "offset": 0
+        },
+        {
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "basename": "has_house_rules",
+          "dragId": "GW_gsINuGvz",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_aC52",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ADeA",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zo44",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_fU8S",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_M9vW",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_vjbg",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ZkfE",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_FqJH",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Bp-5",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_MboN",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_dQfl",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_z0zS",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_RbSu",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_deYn",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "sort": "descending",
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_iZ63",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "fixed",
+        "width": 396,
+        "height": 326
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_QSDH",
+    "name": "Chart 3"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "arc"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_vtYV",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zmNJ",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_GQ5F",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_wBFC",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_hp8e",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_IyBd",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_V-WA",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_25H9",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_RmXP",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_jubi",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_-sOw",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_5STk",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "basename": "neihood_row_count",
+          "dragId": "GW_puyPvqQw",
+          "offset": 0
+        },
+        {
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "basename": "has_house_rules",
+          "dragId": "GW_0WMKc5Et",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_DeQ1",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zqND",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_hoZI",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_2ehy",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_R4Ni",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_5Qnz",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_r2eh",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_9cux",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Yk-S",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4SNc",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_bB9a",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_WQ6R",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_KfYw",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [],
+      "columns": [],
+      "color": [
+        {
+          "dragId": "gw_sCxJ",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [
+        {
+          "dragId": "gw_bIkx",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_n0kH",
+    "name": "Chart 4"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_DMeD",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_jiOo",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_wKu1",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_YdZw",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_8KLM",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_KgS1",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Z0M8",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_jchM",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_gOXY",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Lpzg",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_dv3F",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_w_wF",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "basename": "neihood_row_count",
+          "dragId": "GW_g953wqbR",
+          "offset": 0
+        },
+        {
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "basename": "has_house_rules",
+          "dragId": "GW_j9UOqPma",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_P9b8",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_etwZ",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_X3HS",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_9ysN",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_uGzI",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_kbiv",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_iDl3",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_F7Y7",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_pNjz",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_QU3g",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_v-Q5",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Ta--",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_11NJ",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_yfyF",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "sort": "descending",
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_G7oG",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "fixed",
+        "width": 465,
+        "height": 267
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_W6cG",
+    "name": "Chart 5"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": 20,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_woM1",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_xfui",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_TLZ7",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_pG7O",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zmmN",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_qZ_8",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_TL4x",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_bQLf",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Yzh1",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_EtJO",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_FjHO",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_8o39",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "basename": "neihood_row_count",
+          "dragId": "GW_NCjde8w1",
+          "offset": 0
+        },
+        {
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "basename": "has_house_rules",
+          "dragId": "GW_b9IUwSDc",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_K1Ot",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_U0s_",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_CpJa",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Q1uQ",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_RLfN",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_XFHO",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_EIvW",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_05lu",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_QtCc",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_05H7",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_JMB5",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_HExP",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_QB7M",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_j43l",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "sort": "descending",
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_fcZW",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "color": [
+        {
+          "dragId": "gw_Yz2M",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_EYbx",
+    "name": "Chart 6"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": 20,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_nIDg",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_creH",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_fSxd",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_7EgA",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_J4My",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_iDm1",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_6D-J",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_MjbP",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_7aTd",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_H_bo",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_YqhR",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_SO8Y",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "basename": "neihood_row_count",
+          "dragId": "GW_awYkZMi5",
+          "offset": 0
+        },
+        {
+          "fid": "gw_B3RH",
+          "dragId": "gw_B3RH",
+          "name": "bin(price)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_B3RH",
+            "params": [
+              {
+                "type": "field",
+                "value": "price"
+              }
+            ]
+          },
+          "offset": 0
+        },
+        {
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "basename": "has_house_rules",
+          "dragId": "GW_3qvJXQ4Y",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_cxh4",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_qQUV",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Okeb",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_W_CG",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_FhoO",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_99K4",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_spHE",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_meFW",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_h032",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_K0Cn",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_d8_Q",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_gdU_",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_TWNQ",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_GNUi",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "sort": "descending",
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw__16E",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "median",
+          "offset": 0
+        }
+      ],
+      "color": [
+        {
+          "dragId": "gw_hDYC",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "median",
+          "offset": 0
+        }
+      ],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [
+        {
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "basename": "neihood_row_count",
+          "dragId": "gw_czFJ",
+          "rule": {
+            "type": "range",
+            "value": [
+              1000,
+              6791
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_GSVM",
+    "name": "Chart 7"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_7zVg",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_c7ML",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_vZOZ",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_fvZX",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4r5s",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_38Sx",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_IAdL",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_kleH",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_OhLy",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_I5Pm",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_825Z",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4ruI",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Nd3g",
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "basename": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "gw_inzh",
+          "dragId": "gw_inzh",
+          "name": "bin(price)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_inzh",
+            "params": [
+              {
+                "type": "field",
+                "value": "price"
+              }
+            ]
+          },
+          "offset": 0
+        },
+        {
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "basename": "has_house_rules",
+          "dragId": "GW_duzXEFh3",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_uGij",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_hUaj",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_IgNC",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_KHFr",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_k8ow",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_j5dt",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_-Qgi",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_9Obg",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_J7rb",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4Fx_",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4w3p",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_oV21",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_jSFW",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_rW6h",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "fid": "gw_inzh",
+          "dragId": "gw_phrz",
+          "name": "bin(price)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_inzh",
+            "params": [
+              {
+                "type": "field",
+                "value": "price"
+              }
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_u5J0",
+    "name": "Chart 8"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_HRcG",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_bzb0",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zov4",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_bdqU",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_eWxf",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_DQiu",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw__FzF",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_SOHm",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_0YIU",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_lmN0",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_edSF",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_9iRV",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_YPeq",
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "basename": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "gw_hS6g",
+          "dragId": "gw_hS6g",
+          "name": "bin(service fee)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_hS6g",
+            "params": [
+              {
+                "type": "field",
+                "value": "service fee"
+              }
+            ]
+          },
+          "offset": 0
+        },
+        {
+          "fid": "gw_ct3h",
+          "dragId": "gw_ct3h",
+          "name": "bin(price)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_ct3h",
+            "params": [
+              {
+                "type": "field",
+                "value": "price"
+              }
+            ]
+          },
+          "offset": 0
+        },
+        {
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "basename": "has_house_rules",
+          "dragId": "GW_zOeyXFuH",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_26kx",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_CWXf",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_jayO",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_69nI",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_bYb2",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_igv0",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_I-Je",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Dst4",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_PzEb",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_RbNM",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_gox6",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_tnPV",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_uGUY",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_-24K",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "fid": "gw_hS6g",
+          "dragId": "gw_Tq3l",
+          "name": "bin(service fee)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_hS6g",
+            "params": [
+              {
+                "type": "field",
+                "value": "service fee"
+              }
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_q3Dv",
+    "name": "Chart 9"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "bar"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_n1mf",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_b-SU",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_HeDY",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_1cKD",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_f-lW",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ZQFx",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_BDJb",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_NGhj",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_KO-H",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_28YG",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_PEM8",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "dimension",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_JaE0",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_AaQD",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_G6Y2",
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "basename": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "basename": "has_house_rules",
+          "dragId": "GW_wpm6ktLY",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_np_a",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_MSkE",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_sdo0",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_3mAV",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_MUNJ",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Y39z",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ICTL",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_FTxT",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_pc9y",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Nie7",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_2lE8",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ZvV2",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_ag7K",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_PsKq",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "dimension",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "fixed",
+        "width": 471,
+        "height": 390
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_cB0t",
+    "name": "Chart 10"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_kCPg",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_9yOP",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_RVRG",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_cCYo",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Zs5s",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_61Vj",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_J4kj",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_dXm6",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_gLsj",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_BB6S",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_7yX2",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_euRZ",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_TwM0",
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "basename": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "gw_HBHr",
+          "dragId": "gw_HBHr",
+          "name": "bin(minimum nights)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_HBHr",
+            "params": [
+              {
+                "type": "field",
+                "value": "minimum nights"
+              }
+            ]
+          },
+          "offset": 0
+        },
+        {
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "basename": "has_house_rules",
+          "dragId": "GW_LkzIpOBt",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_QUdV",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ZLDh",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4ppp",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_e5Qn",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_HYWX",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Aydt",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_K2cC",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_8ImE",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Gsqx",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_7qGp",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_FPA2",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_vO8s",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_XId_",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_S05r",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "fid": "gw_HBHr",
+          "dragId": "gw_KyQC",
+          "name": "bin(minimum nights)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_HBHr",
+            "params": [
+              {
+                "type": "field",
+                "value": "minimum nights"
+              }
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [
+        {
+          "dragId": "gw_BgxF",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "rule": {
+            "type": "range",
+            "value": [
+              0,
+              36
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_6U-Q",
+    "name": "Chart 11"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_Nhyo",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_1YN3",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_7osc",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_T6-M",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zo77",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_pRWw",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_UaGb",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_iHkn",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_rCYf",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_laJx",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_DsxG",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_SrpF",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Lp40",
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "basename": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "basename": "has_house_rules",
+          "dragId": "GW_3U1PlnGD",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_eOke",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_0ahw",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_24Pb",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_5gru",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_jn4z",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_m-py",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_JlRW",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_sn2_",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_sGoF",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_RKSf",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_v3rq",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_HSJ9",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_FPU8",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_nx2L",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "sort": "descending",
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_RM7m",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "median",
+          "offset": 0
+        }
+      ],
+      "color": [
+        {
+          "dragId": "gw_r1VW",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "median",
+          "offset": 0
+        }
+      ],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [
+        {
+          "dragId": "gw_Cx-S",
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "basename": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "rule": {
+            "type": "range",
+            "value": [
+              1000,
+              6791
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_qDhb",
+    "name": "Chart 12"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_2B-0",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Mzw-",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_KS1g",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_X-Tz",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_UHcj",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_lkwP",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_nEh2",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_GVq7",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_awua",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_PDFX",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_atCJ",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_KCro",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ZPMb",
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "basename": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_UF-_",
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "basename": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_Kq9U",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Or96",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mLWO",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_scTM",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_OLp_",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_rcDX",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_gI7D",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_CfsT",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_TR-e",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_GV0Q",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Y3Pz",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_bKxf",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zbV0",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_3UVx",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_0FpU",
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "basename": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_rpQt",
+    "name": "Chart 13"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_BQBt",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_dcgZ",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zmZq",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_JFi-",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_dKsX",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_nVwq",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_MeCo",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw__TiA",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_pz-y",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_w3cP",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_DIBg",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_cs7P",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_g0HY",
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "basename": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_dEVu",
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "basename": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "gw_62ML",
+          "dragId": "gw_62ML",
+          "name": "bin(price)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_62ML",
+            "params": [
+              {
+                "type": "field",
+                "value": "price"
+              }
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_xA0a",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_6_D4",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mk48",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_0Z68",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_XrLg",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_lb88",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_kqTg",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_wvKX",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_35G-",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_E5nq",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_IrYD",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_CNza",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_lPiH",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_LjZh",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "fid": "gw_62ML",
+          "dragId": "gw_PUW9",
+          "name": "bin(price)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_62ML",
+            "params": [
+              {
+                "type": "field",
+                "value": "price"
+              }
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "color": [
+        {
+          "dragId": "gw_Ud49",
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "basename": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "fixed",
+        "width": 468,
+        "height": 358
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_wBW1",
+    "name": "Chart 14"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "bar"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_KO9N",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mbJi",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_iTuM",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_y2IK",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_W_Ei",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Wlat",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Ga5W",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_M0tu",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_qHUP",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_cAIN",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_xiLs",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mUgi",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zkQ-",
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "basename": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_5HBX",
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "basename": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "gw_UI7_",
+          "dragId": "gw_UI7_",
+          "name": "bin(price)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_UI7_",
+            "params": [
+              {
+                "type": "field",
+                "value": "price"
+              }
+            ]
+          },
+          "offset": 0
+        },
+        {
+          "fid": "gw_xn-B",
+          "dragId": "gw_xn-B",
+          "name": "bin(review rate number)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_xn-B",
+            "params": [
+              {
+                "type": "field",
+                "value": "review rate number"
+              }
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_c4fV",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_tN2C",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Hs_h",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_84Z8",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_S8Kb",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Xa2w",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ZbAV",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_kFGN",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_OiE_",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_3C4D",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_7DyC",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_jNEn",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_yhkd",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw__94K",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "fid": "gw_UI7_",
+          "dragId": "gw_86_M",
+          "name": "bin(price)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_UI7_",
+            "params": [
+              {
+                "type": "field",
+                "value": "price"
+              }
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "color": [
+        {
+          "dragId": "gw_NFHZ",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "fixed",
+        "width": 424,
+        "height": 345
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_x7Pm",
+    "name": "Chart 15"
+  },
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "rect"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_9m0q",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_u4hj",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_7wwK",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Tguw",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_XccB",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_wzz6",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_kTg3",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ymZR",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_GNdA",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Z26R",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Kfpc",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ye0X",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_yBxc",
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "basename": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ovRw",
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "basename": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "gw_R1KU",
+          "dragId": "gw_R1KU",
+          "name": "bin(price)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_R1KU",
+            "params": [
+              {
+                "type": "field",
+                "value": "price"
+              }
+            ]
+          },
+          "offset": 0
+        },
+        {
+          "fid": "gw_BHit",
+          "dragId": "gw_BHit",
+          "name": "bin(service fee)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_BHit",
+            "params": [
+              {
+                "type": "field",
+                "value": "service fee"
+              }
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_YfYF",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ig4s",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Aisu",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_iBX8",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_rTDe",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_k4Nd",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zGNk",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_vXr7",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_T_eu",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_1S2n",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_xPb5",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_kouC",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_g3Fq",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "fid": "gw_BHit",
+          "dragId": "gw_QSxZ",
+          "name": "bin(service fee)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_BHit",
+            "params": [
+              {
+                "type": "field",
+                "value": "service fee"
+              }
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "fid": "gw_R1KU",
+          "dragId": "gw_ATkA",
+          "name": "bin(price)",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "computed": true,
+          "expression": {
+            "op": "bin",
+            "as": "gw_R1KU",
+            "params": [
+              {
+                "type": "field",
+                "value": "price"
+              }
+            ]
+          },
+          "offset": 0
+        }
+      ],
+      "color": [
+        {
+          "dragId": "gw_kdd0",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "fixed",
+        "width": 392,
+        "height": 347
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_vBSU",
+    "name": "Chart 16"
+  },
+  {
+    "config": {
+      "defaultAggregated": false,
+      "geoms": [
+        "line"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_tzAO",
+          "fid": "NAME",
+          "name": "NAME",
+          "basename": "NAME",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_FKFD",
+          "fid": "host_identity_verified",
+          "name": "host_identity_verified",
+          "basename": "host_identity_verified",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zfS_",
+          "fid": "host name",
+          "name": "host name",
+          "basename": "host name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_W9Q_",
+          "fid": "neighbourhood group",
+          "name": "neighbourhood group",
+          "basename": "neighbourhood group",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_1FfO",
+          "fid": "neighbourhood",
+          "name": "neighbourhood",
+          "basename": "neighbourhood",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw__D1w",
+          "fid": "country",
+          "name": "country",
+          "basename": "country",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_hn6B",
+          "fid": "country code",
+          "name": "country code",
+          "basename": "country code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_RQcm",
+          "fid": "instant_bookable",
+          "name": "instant_bookable",
+          "basename": "instant_bookable",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_og_Z",
+          "fid": "cancellation_policy",
+          "name": "cancellation_policy",
+          "basename": "cancellation_policy",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_M8Kv",
+          "fid": "room type",
+          "name": "room type",
+          "basename": "room type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_u73t",
+          "fid": "last review",
+          "name": "last review",
+          "basename": "last review",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_xcWt",
+          "fid": "house_rules",
+          "name": "house_rules",
+          "basename": "house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_0DLw",
+          "fid": "has_house_rules",
+          "name": "has_house_rules",
+          "basename": "has_house_rules",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zO_H",
+          "fid": "neihood_row_count",
+          "name": "neihood_row_count",
+          "basename": "neihood_row_count",
+          "semanticType": "ordinal",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_-KHR",
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_fZL7",
+          "fid": "host id",
+          "name": "host id",
+          "basename": "host id",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_AlwZ",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mLDj",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_jqlU",
+          "fid": "Construction year",
+          "name": "Construction year",
+          "basename": "Construction year",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_uFoD",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw__3OT",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_NDiy",
+          "fid": "minimum nights",
+          "name": "minimum nights",
+          "basename": "minimum nights",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4vbG",
+          "fid": "number of reviews",
+          "name": "number of reviews",
+          "basename": "number of reviews",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Gwcd",
+          "fid": "reviews per month",
+          "name": "reviews per month",
+          "basename": "reviews per month",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4Yr6",
+          "fid": "review rate number",
+          "name": "review rate number",
+          "basename": "review rate number",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_KODU",
+          "fid": "calculated host listings count",
+          "name": "calculated host listings count",
+          "basename": "calculated host listings count",
+          "analyticType": "measure",
+          "semanticType": "ordinal",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4IKm",
+          "fid": "availability 365",
+          "name": "availability 365",
+          "basename": "availability 365",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_8ied",
+          "fid": "service fee",
+          "name": "service fee",
+          "basename": "service fee",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_mb2Z",
+          "fid": "price",
+          "name": "price",
+          "basename": "price",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "fixed",
+        "width": 518,
+        "height": 424
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false
+    },
+    "visId": "gw_WEO6",
+    "name": "Chart 17"
+  }
+]

@@ -1,0 +1,5 @@
+# Development requirements
+
+flake8==3.7
+pytest-benchmark==3.2.2
+pytest==5.1.1

@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+geopandas
+plotly
+ipywidgets
+pyproj
+voila
+voila-material
+seaborn
+folium
+matplotlib
+statsmodels

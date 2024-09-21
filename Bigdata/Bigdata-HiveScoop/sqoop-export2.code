@@ -1,0 +1,50 @@
+Launch webconsole
+uid: hari.prasad_vedavit-ps
+pwd: hari.prasad_vedavit-psaxwpf
+
+-- entering the mysql environment
+$ mysql -h sqoopdb.upg.cloudlab.com -u your_username -p your_password
+
+$ mysql -h sqoopdb.upg.cloudlab.com -u hari_prasad_vedavit_ps -phari.prasad_vedavit-psaxwpf
+
+-- select a database
+sql> use database_name;
+
+
+sql> show databases;
+sql> use hari_prasad_vedavit_ps;
+
+
+-- drop table if exists
+sql> drop table iris;
+
+-- creating a table in the database
+A- sql>  create table iris(sepal_length varchar(20), sepal_width varchar(20), petal_length varchar(20), petal_width varchar(20), class varchar(20));
+B- sql>  create table bollywood (Movie varchar(20),Lead  varchar(20),Rdate  varchar(20),
+Ocollection  varchar(20),Wcollection  varchar(20),Fwcollection  varchar(20),
+Tcollection  varchar(20),Verdict  varchar(20))
+
+
+-- select the data from the created table
+select * from iris;
+
+-- exiting from mysql
+exit
+
+-- exporting data from HDFS into mysql table
+sqoop export --connect jdbc:mysql://sqoopdb.upg.cloudlab.com/database_name -username your_username --password your_password --table iris --export-dir iris_data/*
+
+A. sqoop export --connect jdbc:mysql://sqoopdb.upg.cloudlab.com/hari_prasad_vedavit_ps -username hari_prasad_vedavit_ps  -password hari.prasad_vedavit-psaxwpf --table iris --export-dir /user/hari.prasad_vedavit-ps/iris.csv
+
+B. sqoop export --connect jdbc:mysql://sqoopdb.upg.cloudlab.com/hari_prasad_vedavit_ps -username hari_prasad_vedavit_ps  -password hari.prasad_vedavit-psaxwpf --table bollywood --export-dir /user/hari.prasad_vedavit-ps/bollywood.csv
+
+-- checking if the export has happened
+mysql -h sqoopdb.upg.cloudlab.com -u your_username -p your_password
+
+mysql -h sqoopdb.upg.cloudlab.com -u hari_prasad_vedavit_ps -phari.prasad_vedavit-psaxwpf
+
+-- select the database
+use database_name;
+
+-- running a select query
+select * from iris where sepal_length > 6.0;

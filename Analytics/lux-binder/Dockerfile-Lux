@@ -1,0 +1,29 @@
+FROM ubuntu:latest
+RUN apt-get update && apt-get -y update 
+RUN apt-get install -y git
+RUN apt-get install -y build-essential python3.6 python3-pip python3-dev
+RUN pip3 -q install pip --upgrade
+
+RUN pip install git+git://github.com/lux-org/lux-widget.git
+RUN pip install git+git://github.com/lux-org/lux.git
+RUN jupyter nbextension install --py luxwidget
+RUN jupyter nbextension enable --py luxwidget
+
+
+RUN git clone https://github.com/lux-org/lux-logger.git
+WORKDIR lux-logger
+RUN pip install .
+RUN jupyter nbextension install --user logger
+RUN jupyter nbextension enable  --user logger/static/main
+
+RUN mkdir src
+WORKDIR src/
+COPY . .
+
+# Add Tini. Tini operates as a process subreaper for jupyter. This prevents kernel crashes.
+ENV TINI_VERSION v0.6.0
+ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/bin/tini
+RUN chmod +x /usr/bin/tini
+ENTRYPOINT ["/usr/bin/tini", "--"]
+
+CMD ["jupyter", "notebook", "--port=8890", "--no-browser", "--ip=0.0.0.0", "--allow-root", "--NotebookApp.token=''","--NotebookApp.password=''"]

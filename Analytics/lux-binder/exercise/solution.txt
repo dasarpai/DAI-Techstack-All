@@ -1,0 +1,27 @@
+Excercise 1: 
+
+df.intent = ["MedianDebt","Region=New England|Southeast|Far West"]
+df
+
+---------------------------------------------
+
+Excercise 2.1: 
+
+Vis(["Season","AthleteRegion"],df)
+
+---------------------------------------------
+Excercise 2.2: 
+
+physical_characteristics = ["Age", "Weight","Height"]
+VisList(["Year", physical_characteristics],df)
+
+------------------
+Bonus:
+
+from lux.vis.VisList import VisList
+vcLst = []
+for attribute in ['Weight','Age','Height']: 
+    vis = Vis([lux.Clause("Year"), lux.Clause(attribute)])
+    vcLst.append(vis)
+vc = VisList(vcLst,df)
+vc

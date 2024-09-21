@@ -1,0 +1,24 @@
+<main>
+  <section id="text-gen">
+    <h2>Text generation using Flan T5</h2>
+    <p>
+      Model:
+      <a
+        href="https://huggingface.co/google/flan-t5-small"
+        rel="noreferrer"
+        target="_blank"
+        >google/flan-t5-small
+      </a>
+    </p>
+    <form class="text-gen-form">
+      <label for="text-gen-input">Text prompt</label>
+      <input
+        id="text-gen-input"
+        type="text"
+        value="German: There are many ducks"
+      />
+      <button id="text-gen-submit">Submit</button>
+      <p class="text-gen-output"></p>
+    </form>
+  </section>
+</main>

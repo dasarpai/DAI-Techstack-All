@@ -1,0 +1,140 @@
+[
+  {
+    "config": {
+      "defaultAggregated": false,
+      "geoms": [
+        "poi"
+      ],
+      "coordSystem": "geographic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_h7KD",
+          "fid": "price_rank",
+          "name": "price_rank",
+          "basename": "price_rank",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_4HPU",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_oOyz",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        }
+      ],
+      "rows": [],
+      "columns": [],
+      "color": [
+        {
+          "dragId": "gw__iAa",
+          "fid": "price_rank",
+          "name": "price_rank",
+          "basename": "price_rank",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [
+        {
+          "dragId": "gw_FFsJ",
+          "fid": "long",
+          "name": "long",
+          "basename": "long",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        }
+      ],
+      "latitude": [
+        {
+          "dragId": "gw_GzUZ",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        }
+      ],
+      "geoId": [],
+      "details": [],
+      "filters": [],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "fixed",
+        "width": 800,
+        "height": 600
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "colorPalette": "dark2",
+      "scale": {
+        "opacity": {},
+        "size": {}
+      },
+      "scaleIncludeUnmatchedChoropleth": false,
+      "useSvg": false
+    },
+    "visId": "gw_y_EY",
+    "name": "Chart 1"
+  }
+]
