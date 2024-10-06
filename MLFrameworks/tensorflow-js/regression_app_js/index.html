@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TensorFlow.js Regression Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
+</head>
+<body>
+  <h1>TensorFlow.js Regression Model</h1>
+
+  <!-- Input fields for user to enter three floating numbers -->
+  <input type="text" id="input1" value="0.5"><br>
+  <input type="text" id="input2" value="0.3"><br>
+  <input type="text" id="input3" value="0.8"><br>
+  <button onclick="predict()">Predict</button>
+
+  <h3 id="result">Prediction Result: </h3>
+
+  <script>
+    let model;
+
+    // Load the TensorFlow.js model
+    async function loadModel() {
+      model = await tf.loadLayersModel('tfjs_model/model.json');  // Correct path to model.json
+      console.log("Model loaded successfully");
+    }
+
+    // Call the loadModel function when the page loads
+    window.onload = loadModel;
+
+    // Get input values and predict
+	async function predict() {
+		  const input1 = parseFloat(document.getElementById('input1').value);
+		  const input2 = parseFloat(document.getElementById('input2').value);
+		  const input3 = parseFloat(document.getElementById('input3').value);
+
+		  // Create a tensor with shape [1, 3]
+		  const inputTensor = tf.tensor2d([[1, input1, input2, input3]], [1, 4]);
+
+		  // Make a prediction using the loaded model
+		  const prediction = model.predict(inputTensor);
+		  const predictedValue = await prediction.data();
+
+		  // Display the result
+		  document.getElementById('result').innerText = 'Prediction Result: ' + predictedValue;
+		}
+
+  </script>
+</body>
+</html>
