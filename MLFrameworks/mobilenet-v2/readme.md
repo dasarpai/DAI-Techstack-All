@@ -1,9 +1,12 @@
-This dataset can be download from 
-https://www.kaggle.com/datasets/alxmamaev/flowers-recognition
 
+# About this work
+
+## Notes:
+- This dataset can be download from : 
+https://www.kaggle.com/datasets/alxmamaev/flowers-recognition
 Therefore not pushing into github.
 
-Notebook: Google_MobileNetV2_90_Acc-Colab.ipynb
+- Notebook: Google_MobileNetV2_90_Acc-Colab.ipynb
 this notebook was run into colab. I used my local gpu machine to run this.
 I created local server on wsl -> docker -> using tensorflow/tensorflow:latest-gpu-jupyter image
 this created a server at http://127.0.0.1:8888/tree?token=cb531de7d0c315bb96de3c4d94fc5b78d027362417e8f13b
@@ -20,21 +23,23 @@ image = imread(filename)
 image.shape
 
 
-
+```
 # creating a dataset of images 
 X = filenames
 y = boolean_kinds
 
 # creating train and test split 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=18)
+```
 
-# show image 
+## show image 
+```
 plt.imshow(X[i])
 plt.title(kinds[train_labels[i].argmax()])
 plt.axis("off")
+```
 
-
-# How to load image from tensorhub 
+## How to load image from tensorhub 
 ```
 import tensorflow as tf
 import tensorflow_hub as hub
