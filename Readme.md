@@ -14,16 +14,14 @@ This repository is a collection of my experiments, exploration, and proof-of-con
 
 When interacting with my students, clients, and developing solutions, I often need a reference point to build upon. This repository serves that purpose. Sometimes, ideas from here evolve into full-fledged courses or solutions, while other times, they help me gain clarity about different components and how they work together.
 
-This repo has following folders
+This repo has following folders and the are related to POC work.
 
 1. 0-Experiments
 1. Analytics
-1. assets
 1. Audio
 1. Bigdata
 1. CV : Computer Vision
 1. DE : Data Engineering
-1. EdgeModels
 1. GAN : Generative Adversarial Networks
 1. LLM : Large Language Modesl
 1. Misc
@@ -36,4 +34,8 @@ This repo has following folders
 1. Tech-Products
 1. Timeseries
 1. Transfer-Learning
-
+1. Cloud : Work related to AWS, Azure, GCP Machine Learning tools
+1. MLFrameworks : Pytorch, Tensorflow, TensorflowLite, Tensorflow.js
+1. IOT 
+1. Stats : Teaching Statistical Concepts.
+1. Web+Mobile : Web and Mobile App
