@@ -1,3 +1,5 @@
+Readme by Hari Thapliyal
+
 # DasarpAI Technology Stacks
 
 ![Techstack2](/assets/Techstack1.webp)
