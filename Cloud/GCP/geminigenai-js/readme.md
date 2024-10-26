@@ -1,11 +1,11 @@
-Readme by Hari Thaplyal
+# Readme by Hari Thaplyal
 
-.env file with
+## .env file with
 ``` 
 export API_KEY=<YOUR_API_KEY>
 ```
 
-package.json file with
+## package.json file with
 ```
 {
   "name": "geminigenai-js",
@@ -18,7 +18,7 @@ package.json file with
 
 ```
 
-app.js file with
+## app.js file with
 ```
 // Import required packages
 import { GoogleGenerativeAI } from "@google/generative-ai";
@@ -41,14 +41,14 @@ generateStory().catch(console.error);
 
 ```
 
-from wsl shell installed
+## from wsl shell installed
 ```
 npm install @google/generative-ai
 npm install dotenv
 ```
 
 
-run the code
+## run the code
 ```
 node app.js
 ```
