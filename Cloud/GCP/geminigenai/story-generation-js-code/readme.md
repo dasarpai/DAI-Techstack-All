@@ -1,5 +1,8 @@
 # Readme by Hari Thaplyal
 
+Create API Key from 
+https://aistudio.google.com/app/apikey
+
 ## .env file with
 ``` 
 export API_KEY=<YOUR_API_KEY>
