@@ -1,0 +1,1 @@
+docker build -t harithapliyal/php_hello:may2024 .
