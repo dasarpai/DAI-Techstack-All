@@ -158,3 +158,6 @@ with tab2:
             st.success("🎉 Transcription: " + transcript)
         else:
             st.error("❌ Please enter a valid YouTube URL")
+
+def fact(n):
+    

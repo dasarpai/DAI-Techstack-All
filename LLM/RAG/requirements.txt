@@ -1,0 +1,5 @@
+llama-index==0.9.40
+chromadb==0.4.22
+sentence-transformers==2.2.2
+pydantic==1.10.11
+chroma-hnswlib==0.7.3
