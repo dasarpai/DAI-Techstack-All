@@ -1,0 +1,177 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '**'
+  pull_request: {}
+
+env:
+  CI: true
+  # https://github.com/samuelcolvin/pytest-pretty#usage-with-github-actions
+  COLUMNS: 180
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "0.4.30"
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --python 3.12 --frozen
+
+      - run: make lint
+      - run: make typecheck
+
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "0.4.30"
+          enable-cache: true
+
+      - run: uv sync --python 3.12 --frozen --group docs
+      - run: uv pip install --upgrade mkdocs-material mkdocstrings-python griffe==0.48.0
+        env:
+          UV_EXTRA_INDEX_URL: ${{ secrets.UV_EXTRA_INDEX_URL }}
+      - run: |
+          if [[ -n "${{ github.head_ref }}" && "${{ github.repository }}" != "${{ github.event.pull_request.head.repo.full_name }}" ]]; then
+            uv run --no-sync mkdocs build --no-strict
+          else
+            uv run --no-sync mkdocs build
+          fi
+
+  test:
+    name: test on Python ${{ matrix.python-version }} and pydantic ${{ matrix.pydantic-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+        pydantic-version: ['2.10']
+        include:
+            - python-version: '3.12'
+              pydantic-version: '2.4'
+    env:
+      PYTHON: ${{ matrix.python-version }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ensure requests to production domains fail
+        if: runner.os == 'Linux'
+        run: |
+          echo "203.0.113.0 logfire.dev" | sudo tee -a /etc/hosts
+          echo "203.0.113.0 logfire-api.pydantic.dev" | sudo tee -a /etc/hosts
+          echo "203.0.113.0 logfire.pydantic.dev" | sudo tee -a /etc/hosts
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "0.4.30"
+          enable-cache: true
+
+      - run: uv sync --python ${{ matrix.python-version }}
+
+      - name: Install pydantic ${{ matrix.pydantic-version }}
+        # installs the most recent patch on the minor version's track, ex 2.6.* -> 2.6.4
+        run: uv pip install 'pydantic==${{ matrix.pydantic-version }}.*'
+
+      - run: mkdir coverage
+      - run: uv run --no-sync coverage run -m pytest
+        env:
+          COVERAGE_FILE: coverage/.coverage.${{ runner.os }}-py${{ matrix.python-version }}-pydantic-${{ matrix.pydantic-version }}
+      - name: store coverage files
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-py${{ matrix.python-version }}-pydantic-${{ matrix.pydantic-version }}
+          path: coverage
+          include-hidden-files: true
+
+  coverage:
+    runs-on: ubuntu-latest
+    needs: [test]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "0.4.30"
+          enable-cache: true
+
+      - name: Create venv
+        run: uv venv --python 3.12
+
+      - name: get coverage files
+        uses: actions/download-artifact@v4
+        with:
+          merge-multiple: true
+          path: coverage
+
+      - run: uv pip install coverage[toml]
+      - run: uv run coverage combine coverage
+      - run: uv run coverage xml
+      - uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./coverage.xml
+          env_vars: PYTHON
+      - run: uv run coverage report --fail-under 100
+
+  # https://github.com/marketplace/actions/alls-green#why used for branch protection checks
+  check:
+    if: always()
+    needs: [lint, docs, test, coverage]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Decide whether the needed jobs succeeded or failed
+        uses: re-actors/alls-green@release/v1
+        with:
+          jobs: ${{ toJSON(needs) }}
+
+  release:
+    needs: [check]
+    if: "success() && startsWith(github.ref, 'refs/tags/')"
+    runs-on: ubuntu-latest
+    environment: release
+
+    permissions:
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "0.4.30"
+          enable-cache: true
+
+      - name: Set up Python 3.12
+        run: uv python install 3.12
+
+      - name: check GITHUB_REF matches package version
+        uses: samuelcolvin/check-python-version@v4.1
+        with:
+          version_file_path: pyproject.toml
+
+      - name: Build artifacts
+        run: uv build --all
+
+      - name: Publish logfire and logfire-api to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          skip-existing: true
+          verbose: true
