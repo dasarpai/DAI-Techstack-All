@@ -1,0 +1,19 @@
+*.env
+.DS_Store
+.logfire
+.python-version
+.venv
+/.coverage
+/scratch/
+__pycache__
+dist
+logfire_credentials.json
+site
+venv
+
+# stubgen
+out
+
+# Node/Cloudflare
+node_modules
+.wrangler
