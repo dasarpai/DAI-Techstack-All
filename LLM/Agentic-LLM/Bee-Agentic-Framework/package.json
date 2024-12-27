@@ -1,0 +1,21 @@
+{
+  "name": "bee-agentic-framework",
+  "version": "1.0.0",
+  "description": "- Bee Agentic Framework is developed by IBM\r - https://www.youtube.com/watch?v=AsYQVlBC6Mo&list=PL2IgIv-xDdRX4scrM4ZL85FwkzQKuzyxc&index=46\r - https://github.com/i-am-bee/bee-agent-framework\r - https://github.com/leonvanzyl/bee-agent-framework-next-js - Bee Agent Framework Nextjs Example",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bee-agent-framework": "^0.0.54",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "groq-sdk": "^0.7.0"
+  }
+}
