@@ -1,0 +1,16 @@
+{# templates/selected-good.txt #}
+
+Hello {{ name }},
+
+{% if score > 80 %}
+I'm happy to inform you that you did very well on today's {{ test_name }}. You
+achieved {{ score }} out of {{ max_score }} points!
+
+{% else %}
+You have passed your test {{ test_name }}. You scored {{ score }} out of {{ max_score }} points.
+
+{% endif %}
+
+
+Best regards
+Dr. Hari 

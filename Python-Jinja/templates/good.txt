@@ -1,0 +1,9 @@
+{# templates/good.txt #}
+Hello {{ name }},
+
+I'm happy to inform you that you did very well on today's {{ test_name }}. You
+achieved {{ score }} out of {{ max_score }} points!
+
+
+Best regards
+Dr. Hari 
