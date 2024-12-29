@@ -1,3 +1,5 @@
+D:\github\DAI-Techstack-All\LLM\readme.md 
+
 for /d %i in (*) do @echo %i & for /d %j in (%i\*) do @echo     %j   
 
    
