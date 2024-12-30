@@ -1,0 +1,57 @@
+Agentic-LLM
+	Agentic-LLM/Bee-Agentic-Framework
+	Agentic-LLM/Create-Custom-Audio-Summaries
+BigScience
+	BigScience/finetune-bloom-7b
+Cloud-AWS
+	Cloud-AWS/AWS-Amazon-Bedrock-for-Serverless-LLM
+	Cloud-AWS/AWS-Amplify
+	Cloud-AWS/AWS-Runner
+	Cloud-AWS/AWS-SageMaker
+Cloud-Azure
+Cloud-GCP
+	Cloud-GCP/gcp-vision
+	Cloud-GCP/geminigenai-js
+	Cloud-GCP/geminigenai
+Cloud-Groq
+	Cloud-Groq/groq-Cloud
+	Cloud-Groq/groq-whisper-fast
+Deepseek
+	Deepseek/deepseek_v2_tokenizer
+EleutherAI
+	EleutherAI/neo2.7b
+Langchain
+	Langchain/Langchain
+	Langchain/langchain-multimodal
+MLOps
+	MLOps/ML-Pipelines
+	MLOps/Pydantic+logfire
+	MLOps/cog
+	MLOps/comet.com
+	MLOps/naptune
+MetaAI
+	MetaAI/finetune-llama2
+	MetaAI/finetune-llama3-8b
+	MetaAI/ollama
+	MetaAI/ts.llamaindex
+MistralAI
+	MistralAI/MistralAI
+RAG
+	RAG/RAG
+StabilityAI
+	StabilityAI/StabilityAI-with-WebUI
+Vercel
+	Vercel/pricing-calculator-with-v0dev
+X-grokAI
+huggingface
+	huggingface/t5-flan-small
+lmstudio
+	lmstudio/qwen1.5-7b
+openAI
+	openAI/open-webui
+	openAI/openAI
+	openAI/openai-quickstart-python
+otterai
+	otterai/speech-to-text
+quantization
+	quantization/llama

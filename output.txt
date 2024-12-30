@@ -14,12 +14,14 @@ Analytics
 	Analytics/plotly
 	Analytics/tableau
 Audio
+	Audio/GAN-MusicGeneration
 	Audio/Speech-Recognition
 CICD
 	CICD/Git
 CMS-Content-Management-Systems
 	CMS-Content-Management-Systems/Jekyll
 CUDA
+	CUDA/Cuda-Examples
 CV
 	CV/Flower-Prediction
 	CV/ImageAugmentation
@@ -50,11 +52,6 @@ Docker
 	Docker/count-program
 	Docker/demo1
 	Docker/welcome-to-docker
-GAN
-	GAN/MusicGeneration
-Google-Colab
-	Google-Colab/Local-Jupyter-from-Colab
-	Google-Colab/ngrok
 IOT
 	IOT/BOLTIOT
 LLM
@@ -67,21 +64,20 @@ LLM
 	LLM/Deepseek
 	LLM/EleutherAI
 	LLM/Langchain
+	LLM/MLOps
 	LLM/MetaAI
 	LLM/MistralAI
 	LLM/RAG
 	LLM/StabilityAI
 	LLM/Vercel
 	LLM/X-grokAI
-	LLM/cog
-	LLM/comet.com
-	LLM/google-gemini
 	LLM/huggingface
 	LLM/lmstudio
 	LLM/openAI
 	LLM/otterai
 	LLM/quantization
 LaTex
+	LaTex/TexStudio
 ML
 	ML/Classification
 	ML/Clustering
@@ -94,10 +90,6 @@ MLFrameworks
 	MLFrameworks/mobilenet-v2
 	MLFrameworks/tensorflow-js
 	MLFrameworks/tensorflow-lite
-MLOps
-	MLOps/ML-Pipelines
-	MLOps/Pydantic+logfire
-	MLOps/naptune
 Misc
 	Misc/DineshBhatt
 	Misc/cython
@@ -112,9 +104,9 @@ NLP
 	NLP/NLP-SanskritTrans
 	NLP/NLP-rasa
 Python-Automation
-	Python-Automation/1.Table Extraction
-	Python-Automation/2.Automate The News
-	Python-Automation/3.Excel Report
+	Python-Automation/1.Table-Extraction
+	Python-Automation/2.Automate-The-News
+	Python-Automation/3.Excel-Report
 	Python-Automation/4.WhatsApp
 	Python-Automation/datasets
 	Python-Automation/spanish
@@ -128,10 +120,12 @@ R-Projects
 RL
 	RL/pytennis
 Stats
+	Stats/distributions
 Timeseries
 	Timeseries/TS-Smoothing
 	Timeseries/TS-multivariate
 Transfer-Learning
+	Transfer-Learning/Vision
 UI-Design
 	UI-Design/Motion-Design-for-Web
 Web+Mobile
