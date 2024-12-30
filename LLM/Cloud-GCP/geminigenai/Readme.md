@@ -5,6 +5,8 @@ https://aistudio.google.com/app/gallery
 
 Explore prompt ideas for working with the latest Gemini models.
 
+## Capabilities
+
 1. Audio Diarization: Transcribe audio with speaker details and timestamps.
 1. Video Q&A: Ask questions about key details in a video.
 1. Recipe to JSON: Create recipe in JSON mode using an image.
@@ -36,3 +38,13 @@ Explore prompt ideas for working with the latest Gemini models.
 1. Game Character Brainstorm: Create a character design based on a provided context.
 1. Modify writing style: Change the tone and writing style of a blurb.
 1. Regexed: Convert natural language queries and constraints to regex constructs.
+
+## My Experiments 
+
+### Gemini Genai
+- Gemini Prompt Gallery, Task which can be done with Gaemini-1.5-flash
+- Story Generation with JavaScript
+- Story Generation with Python
+
+### Geimini GenAI-Js
+- Gemini GenAI-Js
