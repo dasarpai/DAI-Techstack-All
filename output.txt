@@ -1,0 +1,143 @@
+0-Experiments
+	0-Experiments/Colab
+	0-Experiments/RNN-Code-Generator
+0-Tech-Solutions
+API-Development
+	API-Development/Python-Jinja
+	API-Development/curl
+	API-Development/fastapi_example
+Analytics
+	Analytics/PowerBI
+	Analytics/PyGWalker
+	Analytics/bokeh
+	Analytics/pandas
+	Analytics/plotly
+	Analytics/tableau
+Audio
+	Audio/Speech-Recognition
+CICD
+	CICD/Git
+CMS-Content-Management-Systems
+	CMS-Content-Management-Systems/Jekyll
+CUDA
+CV
+	CV/Flower-Prediction
+	CV/ImageAugmentation
+	CV/ImageProcessing
+	CV/MNIST-Experiments
+	CV/Object-Detection-InBrowser
+DB-Bigdata
+	DB-Bigdata/Bigdata-HiveScoop
+	DB-Bigdata/Bigdata-mySQL
+	DB-Bigdata/mongodb
+DB-Databases
+	DB-Databases/ChromaDB
+	DB-Databases/PostgreSQL
+DE
+	DE/DataCleaning
+	DE/Datacollection
+	DE/PyWebScrapping
+Docker
+	Docker/Dockerfile-golang1.21-alpine
+	Docker/Dockerfile-php7.2-apache
+	Docker/Dockerfile-python3.9-slim
+	Docker/Dockerfile-tensorflow-latest
+	Docker/Gemini-Docker-by-Hari
+	Docker/Jupyter-from-Docker-with-GPU
+	Docker/Jupyter-from-Docker-wo-GPU
+	Docker/bindmount-apps
+	Docker/colab-in-docker-in-local
+	Docker/count-program
+	Docker/demo1
+	Docker/welcome-to-docker
+GAN
+	GAN/MusicGeneration
+Google-Colab
+	Google-Colab/Local-Jupyter-from-Colab
+	Google-Colab/ngrok
+IOT
+	IOT/BOLTIOT
+LLM
+	LLM/Agentic-LLM
+	LLM/BigScience
+	LLM/Cloud-AWS
+	LLM/Cloud-Azure
+	LLM/Cloud-GCP
+	LLM/Cloud-Groq
+	LLM/Deepseek
+	LLM/EleutherAI
+	LLM/Langchain
+	LLM/MetaAI
+	LLM/MistralAI
+	LLM/RAG
+	LLM/StabilityAI
+	LLM/Vercel
+	LLM/X-grokAI
+	LLM/cog
+	LLM/comet.com
+	LLM/google-gemini
+	LLM/huggingface
+	LLM/lmstudio
+	LLM/openAI
+	LLM/otterai
+	LLM/quantization
+LaTex
+ML
+	ML/Classification
+	ML/Clustering
+	ML/DataImbalance
+	ML/ML-Retraining
+	ML/ROC
+	ML/Regression
+MLFrameworks
+	MLFrameworks/TensorFlow-ImageRecognition
+	MLFrameworks/mobilenet-v2
+	MLFrameworks/tensorflow-js
+	MLFrameworks/tensorflow-lite
+MLOps
+	MLOps/ML-Pipelines
+	MLOps/Pydantic+logfire
+	MLOps/naptune
+Misc
+	Misc/DineshBhatt
+	Misc/cython
+	Misc/js-app-demo
+	Misc/pySimulator
+NLP
+	NLP/Embedding
+	NLP/NLP-Concepts
+	NLP/NLP-Hindi-Bible
+	NLP/NLP-Misc
+	NLP/NLP-Plugin20Event
+	NLP/NLP-SanskritTrans
+	NLP/NLP-rasa
+Python-Automation
+	Python-Automation/1.Table Extraction
+	Python-Automation/2.Automate The News
+	Python-Automation/3.Excel Report
+	Python-Automation/4.WhatsApp
+	Python-Automation/datasets
+	Python-Automation/spanish
+	Python-Automation/test-folder
+PythonicWay
+	PythonicWay/8things-you-must-know
+	PythonicWay/ManagingPythonProjects
+	PythonicWay/python_pkg
+R-Projects
+	R-Projects/R-Demo-Classification
+RL
+	RL/pytennis
+Stats
+Timeseries
+	Timeseries/TS-Smoothing
+	Timeseries/TS-multivariate
+Transfer-Learning
+UI-Design
+	UI-Design/Motion-Design-for-Web
+Web+Mobile
+	Web+Mobile/Android
+	Web+Mobile/JS
+	Web+Mobile/Java
+	Web+Mobile/Nodejs
+	Web+Mobile/nginx-web-app
+assets
