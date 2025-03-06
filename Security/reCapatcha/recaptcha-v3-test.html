@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>reCAPTCHA v3 Test</title>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdiPeoqAAAAAOTg3cRz6p--dU8Kguv2xJPsZzm6"></script>
+</head>
+<body>
+    <h1>reCAPTCHA v3 Test</h1>
+    <button id="submitBtn">Verify</button>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('submitBtn').addEventListener('click', function() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = 'Verifying...';
+
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6LdiPeoqAAAAAOTg3cRz6p--dU8Kguv2xJPsZzm6', {action: 'submit'})
+                .then(function(token) {
+                    console.log('Full Token:', token);
+                    resultDiv.innerHTML = `Token Generated: ${token.substring(0, 20)}...`;
+
+                    // Send to your backend
+                    fetch('http://localhost:5000/verify-recaptcha', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ token: token })
+                    })
+                    .then(response => {
+                        console.log('Response Status:', response.status);
+                        return response.text(); // Use text() instead of json()
+                    })
+                    .then(responseText => {
+                        console.log('Raw Response:', responseText);
+                        try {
+                            const verifyData = JSON.parse(responseText);
+                            resultDiv.innerHTML += `<br>Verification Result: ${JSON.stringify(verifyData)}`;
+                        } catch (parseError) {
+                            resultDiv.innerHTML += `<br>Parsing Error: ${parseError.message}`;
+                            resultDiv.innerHTML += `<br>Raw Response: ${responseText}`;
+                        }
+                    })
+                    .catch(error => {
+                        resultDiv.innerHTML += `<br>Error: ${error.message}`;
+                        console.error('Full error:', error);
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
