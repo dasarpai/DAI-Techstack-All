@@ -3,6 +3,8 @@
 ## Docker Command
 docker run -p 3006:3001 -d picsmaller
 
+## github 
+https://github.com/joye61/pic-smaller
 
 
 ## In the browser 
